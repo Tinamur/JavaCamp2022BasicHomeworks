@@ -1,13 +1,13 @@
-package week_2_Homework_2;
+package week_2_Homework_2._4_Inheritance_;
 
-public class _4_Inheritance_Main {
+public class Main {
 
 	public static void main(String[] args) {
-		_4_Inheritance_KrediUI krediUI = new _4_Inheritance_KrediUI();
+		KrediUI krediUI = new KrediUI();
 		
-		krediUI.KrediHesapla(new _4_Inheritance_TarimKrediManager());
-		krediUI.KrediHesapla(new _4_Inheritance_OgretmenKrediManager());
-		krediUI.KrediHesapla(new _4_Inheritance_AskerKrediManager());
+		krediUI.KrediHesapla(new TarimKrediManager());
+		krediUI.KrediHesapla(new OgretmenKrediManager());
+		krediUI.KrediHesapla(new AskerKrediManager());
 
 	}
 

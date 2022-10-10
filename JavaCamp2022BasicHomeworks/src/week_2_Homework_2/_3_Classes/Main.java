@@ -1,8 +1,8 @@
-package week_2_Homework_2;
+package week_2_Homework_2._3_Classes;
 
-public class _3_Classes_Main {
+public class Main {
 	public static void main(String[] args) {
-		_3_Classes_BasicMath basicMath = new _3_Classes_BasicMath();
+		BasicMath basicMath = new BasicMath();
 		
 		int result = basicMath.Add(3, 4);
 		System.out.println(result);

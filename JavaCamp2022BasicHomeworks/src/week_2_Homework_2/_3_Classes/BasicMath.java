@@ -1,6 +1,6 @@
-package week_2_Homework_2;
+package week_2_Homework_2._3_Classes;
 
-public class _3_Classes_BasicMath {
+public class BasicMath {
 	public int Add(int number1, int number2) {
 		return number1 + number2;
 	}
